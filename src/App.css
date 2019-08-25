@@ -93,6 +93,7 @@ Header{
 
       padding: 0 16px 0 30px !important;
   }
+ 
 }
 
 #home{
@@ -105,6 +106,11 @@ Header{
 
 }
 
+@media screen and (max-width: 600px) {
+#home{
+  height:auto;
+}
+}
 
 .profileDiv{
   flex:1;
